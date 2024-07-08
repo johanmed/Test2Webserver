@@ -14,7 +14,7 @@ You will need to install the following frameworks, extension or database engine 
 - db-sqlite3
 
 ## Instructions for use
-1. Clone the repository
+1. Clone the repository  
 2. Activate python environment **ml-env**
 ```
 source ml-env/bin/activate
