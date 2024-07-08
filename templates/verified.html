@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Machine Learning{% endblock %}
+
+{% block page_content %}
+<div class="page-header">
+    <h2>Welcome back!</h2>
+</div>
+{{ wtf.quick_form(query_form) }}
+{% endblock %}
+

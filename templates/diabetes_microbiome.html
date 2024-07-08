@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}ML results{% endblock %}
+
+{% block page_content %}
+<div class="page-header">
+    <h2>Partial results</h2>
+    <h4>We found these gut microbiome traits associated with your diabetes traits:</h4>
+    {% for y in data %}
+      <div> class="Immune Traits">
+        <p><b>{{ y }}</b><p>
+      </div>
+    {% endfor %}
+    <p>The local date and time is {{ moment(current_time).format('LLL') }}.</p>
+    <p>You connected {{ moment(current_time).fromNow(refresh=True) }}.</p>
+</div>
+{% endblock %}
+
