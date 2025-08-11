@@ -1,11 +1,11 @@
-# Build a webserver app_ml
+# Description
 *This repository is for building a web server to access a database locally or within the same network*  
 
 This branch contains the original version of the web (application server) created locally  
 
 *We use python framework **Flask** to write this webserver*
 
-## Requirements
+# Requirements
 You will need to install the following frameworks, extension or database engine to build and run the web server:  
 - flask
 - flask-bootstrap
@@ -13,7 +13,7 @@ You will need to install the following frameworks, extension or database engine 
 - lask-migrate
 - db-sqlite3
 
-## Instructions for use
+# Instructions for use
 1. Clone the repository  
 2. Activate python environment **ml-env**
 ```
